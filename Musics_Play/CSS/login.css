@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-style: italic;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #092549, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #bb1c1c;
+    /* font-family: "Oleo Script Swash Caps", system-ui; */
+    font-weight: 400;
+    font-style: normal;
+}
+
+.login-container{
+    background-color: #b6b6b6c0;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 90px;
+    width: 450px;
+    text-align: center;
+}
+
+p{
+    color: black;
+}
+
+a{
+    color: white;
+}
+
+button{
+    background-color: #535353;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100px;
+}
+
+button:hover {
+    background-color: #1b3d64; /* Mudar a cor qnd passar o mouse por cima */
+}
+
+input{
+    border-radius: 30px;
+    padding: 5px;
+    font-weight: bold;
+} 

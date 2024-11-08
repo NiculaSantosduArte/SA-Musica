@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-style: italic;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #092549, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: #bb1c1c;
+    font-style: italic;
+    font-weight: 400;
+    font-weight: bold;
+    font-size: 2.3em;
+}
+
+.conteiner-bemVindo{
+    background-color: #b6b6b6c0;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px 17px rgba(0, 0, 0, 0.1);
+    padding: 90px;
+    width: 300px;
+    text-align: center;
+}
+
+p{
+    color: black;
+    font-size: 1.2em;
+}
+
+button{
+    background-color: #535353;
+    color: white;
+    border: none;
+    padding: 7px 40px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: #1b3d64;
+}
